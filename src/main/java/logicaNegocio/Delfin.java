@@ -2,14 +2,12 @@ package logicaNegocio;
 
 public class Delfin extends Animal {
 
-    public Delfin(TipoHabitat habitat) {
-        super(habitat);
-    }
     
-    String emitirSonido(){
+    
+    public String emitirSonido(){
         return "Chirrido";
     }
-    String obtenerDieta(){
+    public String obtenerDieta(){
         return "Pescado";
     }
    

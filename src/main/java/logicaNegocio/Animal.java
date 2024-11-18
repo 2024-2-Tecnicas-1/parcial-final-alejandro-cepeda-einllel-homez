@@ -2,15 +2,13 @@ package logicaNegocio;
 
 public abstract class Animal {
     private TipoHabitat habitat;
-
-    public Animal(TipoHabitat habitat) {
-        this.habitat = habitat;
-    }
+    
+    
     
     
 
-    abstract String emitirSonido();
-    abstract String obtenerDieta();
+    public abstract String emitirSonido();
+    public abstract String obtenerDieta();
 
     public void setHabitat(TipoHabitat habitat) {
         this.habitat = habitat;

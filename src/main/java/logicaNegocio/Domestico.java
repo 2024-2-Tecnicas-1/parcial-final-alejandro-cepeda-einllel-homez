@@ -1,5 +1,5 @@
 package logicaNegocio;
 
 public interface Domestico {
-    void interactuarConHumano();
+   String interactuarConHumano();
 }
